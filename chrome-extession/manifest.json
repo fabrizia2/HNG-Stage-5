@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "HelpMeOut",
+    "icons": {
+        "128": "images/android-chrome-192x192.png"
+    },
+    "version": "1.0.0",
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "action": {
+        "default_popup": "index.html"
+     },
+    "permissions": [
+        "scripting",
+        "tabs",
+        "activeTab",
+        "desktopCapture"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ]
+}

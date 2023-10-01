@@ -1,0 +1,472 @@
+.sign-up-login {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background-color: #ffffff;
+  }
+  
+  .sign-up-login .favicon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+  
+  .sign-up-login .title {
+    position: relative;
+    flex: 1;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--lighttext);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .sign-up-login .vector {
+    position: relative;
+    width: 11px;
+    height: 11px;
+  }
+  
+  .sign-up-login .left-round-feet {
+    position: absolute;
+    left: -10px;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .sign-up-login .right-round-feet {
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .sign-up-login .div {
+    display: inline-flex;
+    min-width: 300px;
+    height: 42px;
+    gap: 10px;
+    padding: 0px 16px;
+    background-color: var(--lightframe-foreground);
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .sign-up-login .icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .sign-up-login .navigation-bar {
+    display: flex;
+    width: 1440px;
+    height: 52px;
+    align-items: center;
+    gap: 4px;
+    padding: 0px 8px 0px 10px;
+    position: relative;
+    background-color: var(--lightframe-foreground);
+  }
+  
+  .sign-up-login .frame {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .sign-up-login .group {
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .sign-up-login .lock {
+    position: relative;
+    width: 11px;
+    height: 14px;
+  }
+  
+  .sign-up-login .group-2 {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .sign-up-login .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--frame-border);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .sign-up-login .frame-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .sign-up-login .profile {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+  }
+  
+  .sign-up-login .bookmark-bar {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 38px;
+    background-color: var(--lightframe-foreground);
+  }
+  
+  .sign-up-login .frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 150px;
+    left: 482px;
+  }
+  
+  .sign-up-login .frame-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .sign-up-login .p {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #141414;
+    font-size: 32px;
+    letter-spacing: 0.32px;
+    line-height: 48px;
+    white-space: nowrap;
+  }
+  
+  .sign-up-login .join-millions-of {
+    position: relative;
+    width: 321px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 400;
+    color: #434343;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.14px;
+    line-height: 21px;
+  }
+  
+  .sign-up-login .span {
+    font-weight: 300;
+  }
+  
+  .sign-up-login .text-wrapper-2 {
+    font-family: "Sen-Regular", Helvetica;
+  }
+  
+  .sign-up-login .frame-5 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .sign-up-login .sso {
+    position: relative;
+    width: 475px;
+    height: 48px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #141414;
+  }
+  
+  .sign-up-login .frame-6 {
+    display: flex;
+    width: 219px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 9px 10px;
+    position: relative;
+    top: 3px;
+    left: 133px;
+  }
+  
+  .sign-up-login .google-svg {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-left: -5px;
+  }
+  
+  .sign-up-login .text-wrapper-3 {
+    margin-right: -5px;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #141414;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .sign-up-login .frame-7 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 9px 10px;
+    position: relative;
+    top: 3px;
+    left: 128px;
+  }
+  
+  .sign-up-login .facebook-svg {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .sign-up-login .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #141414;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .sign-up-login .frame-8 {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .sign-up-login .line {
+    margin-left: -0.5px;
+    position: relative;
+    width: 201px;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .sign-up-login .div-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 2px 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .sign-up-login .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #b9c1c7;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .sign-up-login .img {
+    margin-right: -0.5px;
+    position: relative;
+    width: 201px;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .sign-up-login .frame-9 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .sign-up-login .input-field {
+    display: flex;
+    flex-direction: column;
+    width: 475px;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .sign-up-login .base-input-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .sign-up-login .title-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--typography-button-b3-font-family);
+    font-weight: var(--typography-button-b3-font-weight);
+    color: #141414;
+    font-size: var(--typography-button-b3-font-size);
+    letter-spacing: var(--typography-button-b3-letter-spacing);
+    line-height: var(--typography-button-b3-line-height);
+    font-style: var(--typography-button-b3-font-style);
+  }
+  
+  .sign-up-login .frame-10 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: var(--collection-1-inner-radius);
+    border: 1px solid;
+    border-color: var(--primaryprimary-100);
+  }
+  
+  .sign-up-login .input-text-here {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: var(--typography-button-b2-font-family);
+    font-weight: var(--typography-button-b2-font-weight);
+    color: #626262;
+    font-size: var(--typography-button-b2-font-size);
+    letter-spacing: var(--typography-button-b2-letter-spacing);
+    line-height: var(--typography-button-b2-line-height);
+    font-style: var(--typography-button-b2-font-style);
+  }
+  
+  .sign-up-login .frame-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--primarymain);
+    border-radius: 8px;
+  }
+  
+  .sign-up-login .frame-11 {
+    display: inline-flex;
+    align-items: center;
+    gap: 19px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .sign-up-login .frame-12 {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .sign-up-login .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--typography-button-b1-font-family);
+    font-weight: var(--typography-button-b1-font-weight);
+    color: var(--pastel-bg);
+    font-size: var(--typography-button-b1-font-size);
+    text-align: center;
+    letter-spacing: var(--typography-button-b1-letter-spacing);
+    line-height: var(--typography-button-b1-line-height);
+    white-space: nowrap;
+    font-style: var(--typography-button-b1-font-style);
+  }
+  
+  .sign-up-login .frame-13 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    top: 22px;
+    left: 114px;
+  }
+  
+  .sign-up-login .frame-14 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .sign-up-login .icon-2 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .sign-up-login .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--primaryprimary-600);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
