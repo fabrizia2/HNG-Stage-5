@@ -3,9 +3,9 @@
   command = ""  # Replace with your build command if applicable
   
 
-# Publish settings for Age_calculator
+# Publish settings for HelpMeOut
 [[redirects]]
-  from = "/Age_calculator/*"       # Define the URL path for Age_calculator
-  to = "/Age_calculator/:splat"     # Specify the directory path for Age_calculator
+  from = "/HelpMeOut/*"       # Define the URL path for HelpMeOut
+  to = "/HelpMeOut/:splat"     # Specify the directory path for HelpMeOut
   status = 200
-  publish = "Age_calculator"       # Specify the directory to publish for Age_calculator
+  publish = "HelpMeOut"       # Specify the directory to publish for HelpMeOut
