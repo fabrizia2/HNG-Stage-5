@@ -1,22 +1,14 @@
 .landing-page {
     position: relative;
-    width: 1440px;
+    width: 1350px;
     height: 3087px;
     background-color: #f4f6f8;
   }
   
   .landing-page .overlap {
     position: absolute;
-    width: 1440px;
+    width: 1350px;
     height: 171px;
-    top: 0;
-    left: 0;
-  }
-  
-  .landing-page .browser-bars {
-    position: absolute;
-    width: 1440px;
-    height: 93px;
     top: 0;
     left: 0;
   }
@@ -25,7 +17,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 351px;
+    gap: 251px;
     padding: 12px 100px;
     position: absolute;
     top: 87px;
@@ -152,7 +144,7 @@
   
   .landing-page .hero-section {
     position: absolute;
-    width: 1440px;
+    width: 1350px;
     height: 777px;
     top: 174px;
     left: 0;
@@ -303,7 +295,7 @@
     top: 11px;
     left: 42px;
     border-radius: 8px;
-    background-image: url(./img/adobestock-362497671-1.png);
+    background-image: url(../images/img2.svg);
     background-size: 100% 100%;
   }
   
@@ -314,7 +306,7 @@
     top: 165px;
     left: 704px;
     border-radius: 8px;
-    background-image: url(./img/adobestock-400053098-1.png);
+    background-image: url(../images/img1.svg);
     background-size: 100% 100%;
   }
   
