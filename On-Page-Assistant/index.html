@@ -3,24 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <script src="scripts.js" defer></script>
+  <link rel="stylesheet" href="./styles.css">
   <title>On-Page Assistant</title>
 </head>
 <body>
-  <button id="button1">Button 1</button>
-  <button id="button2">Button 2</button>
+  <div class="container">
+    <h1>On-Page Assistant</h1>
+    <button id="button1">Questions</button>
+    <button id="button2">Answers</button>
 
-  <!-- Assistant -->
-  <div id="assistant" class="assistant">
-    <video src="assistant_video.mp4" loop muted autoplay></video>
-  </div>
+    <!-- Assistant -->
+    <div id="assistant" class="assistant">
+      <div class="avatar"></div>
+      <div class="speech-bubble">
+        <p id="assistantText"></p>
+      </div>
+    </div>
 
-  <!-- Hover Icon -->
-  <div id="hoverIcon" class="hover-icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-      <!-- SVG code for the hover icon -->
-    </svg>
+    <!-- Hover Icon -->
+    <div id="hoverIcon" class="hover-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <circle cx="50" cy="50" r="40" fill="blue" />
+      </svg>
+    </div>
   </div>
 </body>
+<script src="./scripts.js" defer></script>
 </html>
