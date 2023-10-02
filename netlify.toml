@@ -1,0 +1,11 @@
+# Global settings for Netlify
+[build]
+  command = ""  # Replace with your build command if applicable
+  
+
+# Publish settings for Age_calculator
+[[redirects]]
+  from = "/Age_calculator/*"       # Define the URL path for Age_calculator
+  to = "/Age_calculator/:splat"     # Specify the directory path for Age_calculator
+  status = 200
+  publish = "Age_calculator"       # Specify the directory to publish for Age_calculator
