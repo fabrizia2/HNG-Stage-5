@@ -9,3 +9,10 @@
   to = "/HelpMeOut/:splat"     # Specify the directory path for HelpMeOut
   status = 200
   publish = "HelpMeOut"       # Specify the directory to publish for HelpMeOut
+
+# Publish for the On page assistant
+[[redirects]]
+from = "/On-Page-Assistant/*"
+to = "/On-Page-Assistant/:splat"
+status = 200
+publish = "On-Page-Assistant"
