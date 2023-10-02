@@ -9,7 +9,7 @@
   
   .landing-page .overlap {
     position: absolute;
-    width: 1400px;
+    width: 1410px;
     height: 171px;
     top: 0;
     left: 0;
@@ -701,7 +701,7 @@
   
   .landing-page .text-wrapper-14 {
     margin-top: -1px;
-    margin-left: -50px;
+    margin-left: -150px;
     position: relative;
     width: fit-content;
     font-family: var(--typography-body-b2-font-family);
