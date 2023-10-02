@@ -640,8 +640,8 @@
   .landing-page .frame-19 {
     display: inline-flex;
     align-items: flex-start;
-    gap: 243px;
-    padding: 98px 130px;
+    gap: 143px;
+    padding: 98px 100px;
     position: absolute;
     top: 2740px;
     left: 0;
@@ -701,6 +701,7 @@
   
   .landing-page .text-wrapper-14 {
     margin-top: -1px;
+    margin-left: -50px;
     position: relative;
     width: fit-content;
     font-family: var(--typography-body-b2-font-family);
